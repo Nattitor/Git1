@@ -1,3 +1,5 @@
+import math
+
 def sumar(op1, op2):
     print("El resultado de la suma es: ", op1 + op2)
 
@@ -18,3 +20,6 @@ def redondear(numero):
 
 def modulo(dividendo, divisor):
     print("El resultado del módulo es: ", dividendo % divisor)
+
+def raiz_cuadrada(numero):
+    print("El resultado de la raíz cuadrada es: ", math.sqrt(numero))
